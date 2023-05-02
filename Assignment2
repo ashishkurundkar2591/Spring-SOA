@@ -1,0 +1,8 @@
+<template>
+<div class= "slds-m-around_large">
+  <template for:each={data} for:item="item">
+    <p key={item.Name}>{item.Name}</p>
+  </template>
+</div>
+  
+</template>
